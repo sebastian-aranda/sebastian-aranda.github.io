@@ -145,7 +145,13 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .container-box-2 .clients figure img {
-  width: 80px;
+  width: 70px;
+  transition: width 0.5s linear 0.1s;
+}
+
+.container-box-2 .clients figure img:hover {
+  width: 100px;
+  transition: width 0.5s linear 0.1s;
 }
 
 .navbar {
@@ -197,6 +203,12 @@ div#myCarousel div.carousel-inner div.item img {
 .content-select .contenido img {
   width: 80%;
   border-radius: 10px;
+  transition: width 0.5s linear 0.1s;
+}
+
+.content-select .contenido img:hover {
+  width: 100%;
+  transition: width 0.5s linear 0.1s;
 }
 
 .content-select .contenido .fa {

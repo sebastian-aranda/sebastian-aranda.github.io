@@ -194,7 +194,12 @@ div#myCarousel{
 			margin-right: 25px;
 			
 			img{
-				width: 80px;
+				width: 70px;
+				transition: width 0.5s linear 0.1s;
+			}
+			img:hover{
+				width: 100px;
+				transition: width 0.5s linear 0.1s;
 			}
 		}
 	}
@@ -258,7 +263,12 @@ div#myCarousel{
 			width: 80%;
 			//margin-top: 70px;
 			border-radius: 10px;
+			transition: width 0.5s linear 0.1s;
 
+		}
+		img:hover{
+			width: 100%;
+			transition: width 0.5s linear 0.1s;
 		}
 		.fa{
 			font-size: 60px;
