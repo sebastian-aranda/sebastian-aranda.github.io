@@ -1,0 +1,32 @@
+
+$linecolor: #c7c7c7;
+
+.origen{
+	
+	margin-top: 50px;
+	//border: 1px solid $linecolor;
+	padding: 20px;
+	display: inline-block;
+	article{
+		margin-top: 50px;
+		
+	}
+	figure{
+		img{
+			width: 160px;
+			margin-top: 20px;
+		}
+	}
+	.video{
+		iframe{
+			margin-left: 60px;
+			border-radius: 10px;
+			margin-top: 50px;
+		}
+	}
+}
+
+
+.container{
+	//margin-top: 100px;
+}

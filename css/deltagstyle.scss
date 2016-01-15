@@ -1,0 +1,268 @@
+
+$linecolor: #c7c7c7;
+
+
+*{
+	font-family: 'open sans', sans-serif;
+	-webkit-box-sizing: border-box;
+}
+
+body{
+
+}
+
+nav{
+	//background-color: #008FC3;
+	width: 100%;
+	display: inline-block;
+	margin: 5px 0px;
+	margin-bottom: -15px;
+	border-bottom: 1px solid $linecolor;
+	//-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	//-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	//box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	//height: 50px;
+	
+
+
+	figure{
+		padding: 6px;
+		//width: 5px;
+		text-align: center;
+		//height: 95px;
+		display: inline-block;
+		//background-color: white;
+		
+		img{
+			margin-left: 100px;
+			width: 120px;
+		}
+	}
+	
+	ul{
+		text-align: right;
+		padding: 0px;
+		margin: 0px;
+		
+		li{
+			display: inline-block;
+			text-decoration: none;
+			padding: 25px;
+			margin-right: 0px;
+			transition: background-color 0.6s linear 0.5s;
+			transition: box-shadow 0.1s linear 0.3s;
+			font-size: 14px;
+			//font-weight: bold;
+			vertical-align: center;
+			
+			a{
+				color: black;
+
+			}
+			a:hover{
+				text-decoration: none;
+				color: black;
+
+			}			
+		}
+
+		li:hover{
+			background-color: rgba(139,178,175,0.3);
+			height: 100%;
+			-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+		}
+	}
+}
+
+div#myCarousel{
+	padding-left: 0px;
+	padding-right: 0px;
+
+
+	.carousel-indicators{
+		.active{
+			 background-color: #7D8ADE;
+		}
+		  
+		   
+		   	li{
+		   		 border: 1px solid #7D8ADE;
+
+		   	}
+		  
+	}
+
+	.carousel-control.right{
+		    background-image: linear-gradient(to right,rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0) 50%);
+		    padding-right: 5px;
+			right: -15px;
+	}
+	
+	.carousel-control.left{
+			background-image: linear-gradient(to left,rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0) 50%);
+			padding-left: -5px;
+			left: 0px;
+	}
+
+	div.carousel-inner{
+		margin-left: 0px;
+		border: 0px;
+
+
+		//border-radius: 10px;
+		//-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		//-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		//box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		
+		div.item{
+			text-align: center;
+			
+
+
+			div.carousel-caption{
+				right: 38%;
+				left: 20%;
+				margin-right: 180px;
+				color: #282828;
+				width: 25%;
+				font-size: 14px;
+				text-shadow: 0 0px 0px rgba(0,0,0,.0);
+				padding-bottom: 4px;
+
+				p{
+
+				}
+			}
+
+			img{
+				display: inline-block;
+				width: 70%;
+				
+				//height: 300px;
+				//border-radius: 10px;
+			}
+		}
+	}
+}
+
+.first{
+	background-color: #f9f9f9;
+	border-bottom: 1px solid $linecolor;
+}
+.box{
+
+	//background-color: black;
+	//height: 245px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 10px;
+}
+	
+.news{
+	margin-top: 10px;
+}
+
+.container-box{
+	margin: 0px;
+	margin-top: 0px;
+	//-webkit-box-shadow: 0px 0px 5px grey;
+	padding: 0px;
+	
+	//width: 100%;
+	//border-radius: 10px;
+}
+
+.container-box-2{
+	//background-color: rgba(0,143,195,0.3);
+	margin-top: 20px;
+	
+	.clients{
+		
+		text-align: center;
+		padding:20px;
+		background-color: #f4f4f4;
+		border: 1px solid $linecolor;
+		
+		//border-radius: 10px;
+		width: 100%;
+
+		figure{
+			display: inline-block;
+			
+			margin-right: 25px;
+			
+			img{
+				width: 80px;
+			}
+		}
+	}
+}
+
+.navbar{
+	padding-right: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+
+	//border: 1px solid #282828;
+
+}
+
+.news{
+	display: block;
+	margin: 0px auto;
+	//background-color: rgba(0,143,195,0.7);
+	padding: 50px;
+	
+	.twitter-timeline{
+		max-width: 300px;
+	}
+}
+
+.social *{
+	margin-right: 24px;
+}
+
+.footer-social{	
+	a:link, a:visited, a:hover, a:active{
+		text-decoration: none;
+		color: #282828;
+	}
+}
+
+.container{
+
+	margin-right: 100px;
+	margin-left: 100px;
+	
+}
+
+.content-select{
+	text-align: center;
+	.contenido{
+		//background-color: #f4f4f4;
+		//border: 1px solid $linecolor;
+		border-radius: 10px;
+		margin-top: 60px;
+		//height: 200px;
+		margin-right: 45px;
+		//padding: 0px;
+		margin-left: 50px;
+		h2{
+			
+			font-size: 19px;
+			color: #1C9DBB;
+		}
+		img{
+			width: 80%;
+			//margin-top: 70px;
+			border-radius: 10px;
+
+		}
+		.fa{
+			font-size: 60px;
+		}
+
+	}
+}

@@ -1,0 +1,204 @@
+* {
+  font-family: 'open sans', sans-serif;
+  -webkit-box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+  margin: 5px 0px;
+  margin-bottom: -15px;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+nav figure {
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav figure img {
+  margin-left: 100px;
+  width: 120px;
+}
+
+nav ul {
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 25px;
+  margin-right: 0px;
+  transition: background-color 0.6s linear 0.5s;
+  transition: box-shadow 0.1s linear 0.3s;
+  font-size: 14px;
+  vertical-align: center;
+}
+
+nav ul li a {
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover {
+  background-color: rgba(139, 178, 175, 0.3);
+  height: 100%;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+div#myCarousel {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+div#myCarousel .carousel-indicators .active {
+  background-color: #7D8ADE;
+}
+
+div#myCarousel .carousel-indicators li {
+  border: 1px solid #7D8ADE;
+}
+
+div#myCarousel .carousel-control.right {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 50%);
+  padding-right: 5px;
+  right: -15px;
+}
+
+div#myCarousel .carousel-control.left {
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 50%);
+  padding-left: -5px;
+  left: 0px;
+}
+
+div#myCarousel div.carousel-inner {
+  margin-left: 0px;
+  border: 0px;
+}
+
+div#myCarousel div.carousel-inner div.item {
+  text-align: center;
+}
+
+div#myCarousel div.carousel-inner div.item div.carousel-caption {
+  right: 38%;
+  left: 20%;
+  margin-right: 180px;
+  color: #282828;
+  width: 25%;
+  font-size: 14px;
+  text-shadow: 0 0px 0px transparent;
+  padding-bottom: 4px;
+}
+
+div#myCarousel div.carousel-inner div.item img {
+  display: inline-block;
+  width: 70%;
+}
+
+.first {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.box {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 10px;
+}
+
+.news {
+  margin-top: 10px;
+}
+
+.container-box {
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.container-box-2 {
+  margin-top: 20px;
+}
+
+.container-box-2 .clients {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #c7c7c7;
+  width: 100%;
+}
+
+.container-box-2 .clients figure {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.container-box-2 .clients figure img {
+  width: 80px;
+}
+
+.navbar {
+  padding-right: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.news {
+  display: block;
+  margin: 0px auto;
+  padding: 50px;
+}
+
+.news .twitter-timeline {
+  max-width: 300px;
+}
+
+.social * {
+  margin-right: 24px;
+}
+
+.footer-social a:link, .footer-social a:visited, .footer-social a:hover, .footer-social a:active {
+  text-decoration: none;
+  color: #282828;
+}
+
+.container {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.content-select {
+  text-align: center;
+}
+
+.content-select .contenido {
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-right: 45px;
+  margin-left: 50px;
+}
+
+.content-select .contenido h2 {
+  font-size: 19px;
+  color: #1C9DBB;
+}
+
+.content-select .contenido img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.content-select .contenido .fa {
+  font-size: 60px;
+}

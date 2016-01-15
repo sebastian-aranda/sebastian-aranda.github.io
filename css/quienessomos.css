@@ -1,0 +1,20 @@
+.origen {
+  margin-top: 50px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.origen article {
+  margin-top: 50px;
+}
+
+.origen figure img {
+  width: 160px;
+  margin-top: 20px;
+}
+
+.origen .video iframe {
+  margin-left: 60px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
