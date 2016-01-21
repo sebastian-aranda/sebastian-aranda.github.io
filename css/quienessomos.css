@@ -4,17 +4,37 @@
   display: inline-block;
 }
 
+.origen h1 {
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 80px;
+  border-bottom: 1px solid #0096CA;
+}
+
 .origen article {
   margin-top: 50px;
+  padding-left: 0px;
 }
 
 .origen figure img {
   width: 160px;
   margin-top: 20px;
+  border-right: 1px dashed #c7c7c7;
+  padding-right: 20px;
 }
 
 .origen .video iframe {
-  margin-left: 60px;
   border-radius: 10px;
   margin-top: 50px;
+}
+
+.empresa {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.empresa img {
+  width: 120px;
 }

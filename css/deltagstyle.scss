@@ -12,7 +12,7 @@ body{
 }
 
 nav{
-	//background-color: #008FC3;
+	background-color: white;
 	width: 100%;
 	display: inline-block;
 	margin: 5px 0px;
@@ -23,6 +23,7 @@ nav{
 	//box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 	//height: 50px;
 	
+	
 
 
 	figure{
@@ -31,7 +32,7 @@ nav{
 		text-align: center;
 		//height: 95px;
 		display: inline-block;
-		//background-color: white;
+		background-color: white;
 		
 		img{
 			margin-left: 100px;
@@ -54,6 +55,7 @@ nav{
 			font-size: 14px;
 			//font-weight: bold;
 			vertical-align: center;
+
 			
 			a{
 				color: black;
@@ -76,14 +78,28 @@ nav{
 	}
 }
 
+.navbar{
+	padding-right: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	//background-color: #0087BC;
+
+	//border: 1px solid #282828;
+
+}
+
 div#myCarousel{
 	padding-left: 0px;
 	padding-right: 0px;
+	.carousel-control{
+		//width: 60%;
+	}
 
 
 	.carousel-indicators{
 		.active{
 			 background-color: #7D8ADE;
+
 		}
 		  
 		   
@@ -111,22 +127,23 @@ div#myCarousel{
 		border: 0px;
 
 
-		//border-radius: 10px;
-		//-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-		//-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-		//box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 		
 		div.item{
 			text-align: center;
 			
+			
 
 
 			div.carousel-caption{
-				right: 38%;
-				left: 20%;
-				margin-right: 180px;
+				right: 26%;
+				left: 6%;
+				margin-right: 250px;
 				color: #282828;
-				width: 25%;
+				//width: 25%;
 				font-size: 14px;
 				text-shadow: 0 0px 0px rgba(0,0,0,.0);
 				padding-bottom: 4px;
@@ -138,18 +155,23 @@ div#myCarousel{
 
 			img{
 				display: inline-block;
-				width: 70%;
+				width: 100%;
 				
 				//height: 300px;
-				//border-radius: 10px;
+				border-radius: 10px;
 			}
 		}
 	}
 }
 
 .first{
-	background-color: #f9f9f9;
+	background: -webkit-linear-gradient(#fff, #E8EBEB);
+	//background-color: #6495CC;
 	border-bottom: 1px solid $linecolor;
+	//margin-right: 200px;
+	//margin-left: 200px;
+
+	
 }
 .box{
 
@@ -160,70 +182,67 @@ div#myCarousel{
 	margin: 10px;
 }
 	
-.news{
-	margin-top: 10px;
-}
+
 
 .container-box{
-	margin: 0px;
-	margin-top: 0px;
-	//-webkit-box-shadow: 0px 0px 5px grey;
-	padding: 0px;
 	
-	//width: 100%;
-	//border-radius: 10px;
+	margin-top: 0px;
+	//margin-left: 85px;
+	//-webkit-box-shadow: 0px 0px 5px grey;
+	padding: 40px;
+	
+	width: 70%;
+	border-radius: 10px;
 }
 
 .container-box-2{
 	//background-color: rgba(0,143,195,0.3);
 	margin-top: 20px;
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 	
 	.clients{
 		
 		text-align: center;
 		padding:20px;
+		padding-bottom: 5px;
 		background-color: #f4f4f4;
-		border: 1px solid $linecolor;
+		//border: 1px solid $linecolor;
 		
 		//border-radius: 10px;
 		width: 100%;
 
 		figure{
 			display: inline-block;
+			border-right: 1px dashed $linecolor;
 			
 			margin-right: 25px;
 			
 			img{
-				width: 70px;
-				transition: width 0.5s linear 0.1s;
+				width: 85px;
+				margin-right: 25px;
+				//transition: width 0.5s linear 0.1s;
 			}
-			img:hover{
-				width: 100px;
-				transition: width 0.5s linear 0.1s;
+			
+		}
+		div{
+			p{
+				margin-top: 30px;
+				color: #00A7D9;
+				font-size: 14px;
+				font-weight: bold;
+
+
 			}
+			
 		}
 	}
 }
 
-.navbar{
-	padding-right: 0px;
-	padding-bottom: 10px;
-	margin-bottom: 0px;
 
-	//border: 1px solid #282828;
 
-}
 
-.news{
-	display: block;
-	margin: 0px auto;
-	//background-color: rgba(0,143,195,0.7);
-	padding: 50px;
-	
-	.twitter-timeline{
-		max-width: 300px;
-	}
-}
 
 .social *{
 	margin-right: 24px;
@@ -234,45 +253,141 @@ div#myCarousel{
 		text-decoration: none;
 		color: #282828;
 	}
+	
 }
 
 .container{
 
-	margin-right: 100px;
-	margin-left: 100px;
+	//margin-right: 100px;
+	//margin-left: 100px;
 	
 }
 
-.content-select{
+.content-section{
 	text-align: center;
-	.contenido{
-		//background-color: #f4f4f4;
-		//border: 1px solid $linecolor;
-		border-radius: 10px;
+	//background-color: #f4f4f4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	//padding: 40px;
+
+	.container{
+		//border-top: 1px solid #00A7D9;
+	}
+
+	.buttons-item-box-content{
+		display: inline-block;
 		margin-top: 60px;
+		margin-left: 75px;
+		.buttons-item-box{
+			background-color: #00A7D9;
+			height: 160px;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			//margin-left: 75px;
+		}
+		.buttons-item-box:hover{
+			-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+			-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+			box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+
+			background-color: #00538D;
+
+		}
+		.b1{
+			
+			background-color: #00A7D9;
+			span{
+				font-size: 90px;
+				color: white;
+				margin-top: 35px;
+			}
+			p{
+				font-size: 14px;
+				color: white;
+				font-weight: bold;
+			}
+		}
+		.b2{
+			background-color: #00D986;
+			span{
+				font-size: 90px;
+				color: white;
+				margin-top: 35px;
+			}
+			p{
+				font-size: 14px;
+				color: white;
+				font-weight: bold;
+			}
+		}
+		.b3{
+			
+			background-color: #D9008F;
+			span{
+				font-size: 90px;
+				color: white;
+				margin-top: 35px;
+			}
+			p{
+				font-size: 14px;
+				color: white;
+				font-weight: bold;
+			}
+		}
+		.b4{
+			background-color: #00A7D9;
+			span{
+				font-size: 90px;
+				color: white;
+				margin-top: 35px;
+			}
+			p{
+				font-size: 14px;
+				color: white;
+				font-weight: bold;
+			}
+		}
+
+	}
+
+	
+	.contenido{
+		//background-color: #00A7D9;
+		//border: 1px solid #00A7D9;
+		border-radius: 10px;
+		margin-top: 40px;
 		//height: 200px;
 		margin-right: 45px;
 		//padding: 0px;
-		margin-left: 50px;
+		margin-left: 165px;
+		iframe{
+			border-radius: 10px;
+		}
+
 		h2{
 			
 			font-size: 19px;
-			color: #1C9DBB;
+			color: #00A7D9;
+		}
+		p{
+			text-align: left;
 		}
 		img{
-			width: 80%;
+			width: 120px;
 			//margin-top: 70px;
 			border-radius: 10px;
 			transition: width 0.5s linear 0.1s;
+			margin-top: 10px;
 
 		}
-		img:hover{
-			width: 100%;
+		/*img:hover{
+			width: 140px;
 			transition: width 0.5s linear 0.1s;
-		}
+		}*/
 		.fa{
 			font-size: 60px;
 		}
 
 	}
 }
+

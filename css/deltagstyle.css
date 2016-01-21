@@ -4,6 +4,7 @@
 }
 
 nav {
+  background-color: white;
   width: 100%;
   display: inline-block;
   margin: 5px 0px;
@@ -15,6 +16,7 @@ nav figure {
   padding: 6px;
   text-align: center;
   display: inline-block;
+  background-color: white;
 }
 
 nav figure img {
@@ -56,6 +58,12 @@ nav ul li:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+.navbar {
+  padding-right: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
 div#myCarousel {
   padding-left: 0px;
   padding-right: 0px;
@@ -84,6 +92,10 @@ div#myCarousel .carousel-control.left {
 div#myCarousel div.carousel-inner {
   margin-left: 0px;
   border: 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
 div#myCarousel div.carousel-inner div.item {
@@ -91,11 +103,10 @@ div#myCarousel div.carousel-inner div.item {
 }
 
 div#myCarousel div.carousel-inner div.item div.carousel-caption {
-  right: 38%;
-  left: 20%;
-  margin-right: 180px;
+  right: 26%;
+  left: 6%;
+  margin-right: 250px;
   color: #282828;
-  width: 25%;
   font-size: 14px;
   text-shadow: 0 0px 0px transparent;
   padding-bottom: 4px;
@@ -103,11 +114,12 @@ div#myCarousel div.carousel-inner div.item div.carousel-caption {
 
 div#myCarousel div.carousel-inner div.item img {
   display: inline-block;
-  width: 70%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .first {
-  background-color: #f9f9f9;
+  background: -webkit-linear-gradient(#fff, #E8EBEB);
   border-bottom: 1px solid #c7c7c7;
 }
 
@@ -117,57 +129,44 @@ div#myCarousel div.carousel-inner div.item img {
   margin: 10px;
 }
 
-.news {
-  margin-top: 10px;
-}
-
 .container-box {
-  margin: 0px;
   margin-top: 0px;
-  padding: 0px;
+  padding: 40px;
+  width: 70%;
+  border-radius: 10px;
 }
 
 .container-box-2 {
   margin-top: 20px;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .container-box-2 .clients {
   text-align: center;
   padding: 20px;
+  padding-bottom: 5px;
   background-color: #f4f4f4;
-  border: 1px solid #c7c7c7;
   width: 100%;
 }
 
 .container-box-2 .clients figure {
   display: inline-block;
+  border-right: 1px dashed #c7c7c7;
   margin-right: 25px;
 }
 
 .container-box-2 .clients figure img {
-  width: 70px;
-  transition: width 0.5s linear 0.1s;
+  width: 85px;
+  margin-right: 25px;
 }
 
-.container-box-2 .clients figure img:hover {
-  width: 100px;
-  transition: width 0.5s linear 0.1s;
-}
-
-.navbar {
-  padding-right: 0px;
-  padding-bottom: 10px;
-  margin-bottom: 0px;
-}
-
-.news {
-  display: block;
-  margin: 0px auto;
-  padding: 50px;
-}
-
-.news .twitter-timeline {
-  max-width: 300px;
+.container-box-2 .clients div p {
+  margin-top: 30px;
+  color: #00A7D9;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .social * {
@@ -179,38 +178,127 @@ div#myCarousel div.carousel-inner div.item img {
   color: #282828;
 }
 
-.container {
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
-.content-select {
+.content-section {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.content-select .contenido {
-  border-radius: 10px;
+.content-section .buttons-item-box-content {
+  display: inline-block;
   margin-top: 60px;
+  margin-left: 75px;
+}
+
+.content-section .buttons-item-box-content .buttons-item-box {
+  background-color: #00A7D9;
+  height: 160px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.content-section .buttons-item-box-content .buttons-item-box:hover {
+  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  background-color: #00538D;
+}
+
+.content-section .buttons-item-box-content .b1 {
+  background-color: #00A7D9;
+}
+
+.content-section .buttons-item-box-content .b1 span {
+  font-size: 90px;
+  color: white;
+  margin-top: 35px;
+}
+
+.content-section .buttons-item-box-content .b1 p {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.content-section .buttons-item-box-content .b2 {
+  background-color: #00D986;
+}
+
+.content-section .buttons-item-box-content .b2 span {
+  font-size: 90px;
+  color: white;
+  margin-top: 35px;
+}
+
+.content-section .buttons-item-box-content .b2 p {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.content-section .buttons-item-box-content .b3 {
+  background-color: #D9008F;
+}
+
+.content-section .buttons-item-box-content .b3 span {
+  font-size: 90px;
+  color: white;
+  margin-top: 35px;
+}
+
+.content-section .buttons-item-box-content .b3 p {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.content-section .buttons-item-box-content .b4 {
+  background-color: #00A7D9;
+}
+
+.content-section .buttons-item-box-content .b4 span {
+  font-size: 90px;
+  color: white;
+  margin-top: 35px;
+}
+
+.content-section .buttons-item-box-content .b4 p {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.content-section .contenido {
+  border-radius: 10px;
+  margin-top: 40px;
   margin-right: 45px;
-  margin-left: 50px;
+  margin-left: 165px;
+  /*img:hover{
+			width: 140px;
+			transition: width 0.5s linear 0.1s;
+		}*/
 }
 
-.content-select .contenido h2 {
+.content-section .contenido iframe {
+  border-radius: 10px;
+}
+
+.content-section .contenido h2 {
   font-size: 19px;
-  color: #1C9DBB;
+  color: #00A7D9;
 }
 
-.content-select .contenido img {
-  width: 80%;
+.content-section .contenido p {
+  text-align: left;
+}
+
+.content-section .contenido img {
+  width: 120px;
   border-radius: 10px;
   transition: width 0.5s linear 0.1s;
+  margin-top: 10px;
 }
 
-.content-select .contenido img:hover {
-  width: 100%;
-  transition: width 0.5s linear 0.1s;
-}
-
-.content-select .contenido .fa {
+.content-section .contenido .fa {
   font-size: 60px;
 }

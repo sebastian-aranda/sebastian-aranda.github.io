@@ -18,13 +18,14 @@ body {
   right: 0;
   /* Set the fixed height of the footer here */
   height: 100px;
-  /*background-color: #008FC3;*/
+  background-color: #f4f4f4;
   padding: 24px 32px;
-  border: 1px solid #c7c7c7;
+  border: 1px solid #c7c7c7;*/
+
 }
 
 .footer-content{
-  margin-left: 24px;
+  margin-left: 365px;
 }
 
 .footer-social{
