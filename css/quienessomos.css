@@ -38,3 +38,8 @@
 .empresa img {
   width: 120px;
 }
+
+.delta-empresa p span {
+  color: #005290;
+  font-weight: bold;
+}
