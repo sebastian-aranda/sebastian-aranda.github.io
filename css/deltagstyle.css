@@ -273,10 +273,18 @@ div#myCarousel div.carousel-inner div.item img {
   color: #282828;
 }
 
+.articulos {
+  margin-top: 100px;
+}
+
 .content-section {
+  position: absolute;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  left: 18px;
+  right: 15px;
+  top: 371px;
 }
 
 .content-section .b1 {
