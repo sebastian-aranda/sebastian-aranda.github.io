@@ -7,72 +7,9 @@ body {
   background: -webkit-linear-gradient(#fff, #E8EBEB);
 }
 
-/*.secondbar{
-	height: 40px;
-	background-color: #F9FDFD;
-	//border-bottom: 5px solid #282828;
-	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	z-index:500;
-	ul.inicial{
-		
-		
-		//color: #282828;
-		text-align: right;
-		margin: 0px;
-		padding: 0px;
-		.btn-group{
-			.btn{
-				padding: 0px 12px;
-				background-color: #F9FDFD;
-				border-color: #F9FDFD;
-				border-radius: 0px;
-
-			}
-			 .dropdown-toggle.btn-default:hover{
-				background-color: rgba(139,178,175,0.3);
-
-			}
-			.dropdown-menu{
-				border-radius: 0px;
-				background-color: #F9FDFD;
-				left: -150px;
-			}
-		}
-		
-
-		li{
-			display: inline-block;
-			padding: 10px;
-			margin-right: 10px;
-
-			
-			a{
-			text-decoration: none;
-			color: #282828;
-			font-size: 14px;
-			
-
-			}
-		}
-
-		li:hover{
-			background-color: rgba(139,178,175,0.3);
-			height: 100%;
-			-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-			-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-		}
-	}
-
-
-}*/
 .secondbar {
-  background-color: #F9FDFD;
-  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  background-color: #FBFBFB;
+  border-bottom: 1px solid #c7c7c7;
   z-index: 500;
 }
 
@@ -80,61 +17,49 @@ body {
   margin-bottom: 0px;
 }
 
-.secondbar .navbar-default {
-  border-color: white;
-  background-color: #F9FDFD;
+.secondbar .navbar img {
+  width: 130px;
+  margin-top: 15px;
 }
 
-.logo-bar {
-  width: 100%;
-  display: inline-block;
-  margin: 5px 0px;
-  margin-bottom: -15px;
-}
-
-.logo-bar figure {
-  padding: 6px;
-  text-align: left;
-  display: inline-block;
-}
-
-.logo-bar figure img {
-  margin-left: 100px;
-  width: 120px;
-}
-
-.logo-bar ul {
+.secondbar .navbar ul {
   text-align: right;
   padding: 0px;
   margin: 0px;
 }
 
-.logo-bar ul li {
-  display: inline-block;
-  text-decoration: none;
-  padding: 25px;
-  margin-right: 0px;
-  transition: background-color 0.6s linear 0.5s;
-  transition: box-shadow 0.1s linear 0.3s;
-  font-size: 14px;
-  vertical-align: center;
+.secondbar .navbar ul li {
+  transition: background-color 0.5s linear 0.5s;
+  transition: box-shadow 0.2s linear 0.5s;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.logo-bar ul li a {
-  color: white;
+.secondbar .navbar ul li a {
+  color: #008EC3;
 }
 
-.logo-bar ul li a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.logo-bar ul li:hover {
-  background-color: rgba(139, 178, 175, 0.3);
+.secondbar .navbar ul li:hover {
+  background: -webkit-linear-gradient(#fff, #F9FDFD);
+  background: -moz-linear-gradient(#fff, #F9FDFD);
+  background: linear-gradient(#fff, #F9FDFD);
   height: 100%;
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.secondbar .navbar ul li:hover a {
+  text-decoration: none;
+  color: #008EC3;
+}
+
+.secondbar .navbar-default {
+  border-color: white;
+  background-color: #FBFBFB;
+  border: 0px;
 }
 
 .bar-bar {
@@ -178,13 +103,17 @@ div#myCarousel .carousel-control.left {
 div#myCarousel div.carousel-inner {
   margin-left: 0px;
   border: 0px;
-  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
 div#myCarousel div.carousel-inner div.item {
   text-align: center;
+}
+
+div#myCarousel div.carousel-inner div.item .canister {
+  right: 40%;
+  left: 6%;
+  margin-right: 250px;
+  bottom: 100px;
 }
 
 div#myCarousel div.carousel-inner div.item div.carousel-caption {
@@ -199,7 +128,13 @@ div#myCarousel div.carousel-inner div.item div.carousel-caption {
 
 div#myCarousel div.carousel-inner div.item div.carousel-caption span {
   font-size: 60px;
-  color: #CE1515;
+  color: #A3C300;
+  transition: font-size 0.5s linear 0.2s;
+}
+
+div#myCarousel div.carousel-inner div.item div.carousel-caption span:hover {
+  color: #008EC3;
+  font-size: 70px;
 }
 
 div#myCarousel div.carousel-inner div.item img {
@@ -277,52 +212,81 @@ div#myCarousel div.carousel-inner div.item img {
   margin-top: 100px;
 }
 
-.content-section {
-  position: absolute;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-  left: 18px;
-  right: 15px;
-  top: 371px;
+.origen {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.content-section .b1 {
-  background-color: #005290;
+.origen .origen-description {
+  border: 3px solid #EBEEEE;
+  -webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
 }
 
-.content-section .b2 {
-  background-color: #007790;
-}
-
-.content-section .buttons-item-box {
-  z-index: 2;
-}
-
-.content-section .buttons-item-box span {
-  font-size: 60px;
-  color: white;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.content-section .buttons-item-box p {
-  font-size: 14px;
-  color: white;
+.origen .origen-description p.delta-description span {
   font-weight: bold;
+  color: #008EC3;
+}
+
+.origen .origen-description figure {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.origen .origen-description figure img {
+  width: 180px;
+}
+
+.origen .origen-description p {
   margin-top: 10px;
+  text-align: justify;
 }
 
-.content-section .buttons-item-box2 {
-  background-color: #07AF41;
-  height: 42px;
+.origen .video img {
+  width: 200px;
 }
 
-.content-section .buttons-item-box2:hover {
-  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-  background-color: #08983A;
+.origen .video a {
+  text-decoration: none;
+}
+
+.origen .video .botton {
+  background-color: #282828;
+  width: 520px;
+  height: 117px;
+  margin-top: 5px;
+  text-align: center;
+  padding-top: 1px;
+  -webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.origen .video .botton h4 {
+  color: white;
+  text-align: center;
+}
+
+.origen .video .botton p {
+  color: white;
+  text-align: center;
+}
+
+.origen .video .botton span {
+  color: white;
+  font-size: 20px;
+}
+
+.origen .video .botton:hover {
+  text-decoration: none;
+  background-color: #008EC3;
+}
+
+.origen .video iframe {
+  -webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .contenido {
@@ -432,18 +396,37 @@ div#myCarousel div.carousel-inner div.item img {
 .productos {
   padding: 40px;
   background-color: #f0f0f0;
-  border-bottom: 1px dashed #c7c7c7;
+  border-top: 1px solid #c7c7c7;
 }
 
 .productos img {
-  height: 180px;
-  width: 180px;
-  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.productos h2 {
+  font-weight: bold;
+  color: white;
+  background-color: #008EC3;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  border-radius: 3px;
 }
 
 .productos p {
   position: relative;
   text-align: justify;
+}
+
+.productos p button {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
 }
 
 .valign {
@@ -460,4 +443,34 @@ div#myCarousel div.carousel-inner div.item img {
 
 .modal-body {
   text-align: center;
+}
+
+.news {
+  overflow-y: scroll;
+  height: 296px;
+  padding-left: 24px;
+}
+
+.news .article {
+  padding: 16px 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.news .article img {
+  float: left;
+  height: 80px;
+  margin-right: 16px;
+}
+
+.news .article .title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.news .article .author, .news .article .date {
+  font-size: 1em;
+}
+
+.news .article .date {
+  float: right;
 }

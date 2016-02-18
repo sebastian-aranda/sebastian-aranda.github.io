@@ -1,47 +1,7 @@
 
 $linecolor: #c7c7c7;
 
-.origen{
-	
-	margin-top: 50px;
-	//border: 1px solid $linecolor;
-	padding: 20px;
-	display: inline-block;
-	//color: #0096CA;
-	h1{
-		padding-bottom: 10px;
-		padding-left: 0px;
-		padding-right: 0px;
-		margin-right: 80px;
-		border-bottom: 1px solid #0096CA;
-	}
-	article{
-		margin-top: 50px;
-		padding-left: 0px;
-		
-	}
-	figure{
 
-		img{
-			width: 160px;
-			margin-top: 20px;
-			border-right: 1px dashed $linecolor;
-			padding-right: 20px;
-		}
-	}
-	.video{
-		iframe{
-			//margin-left: 60px;
-			border-radius: 10px;
-			margin-top: 50px;
-		}
-	}
-}
-
-
-.container{
-	//margin-top: 100px;
-}
 
 .empresa{
 	display: inline-block;
