@@ -8,7 +8,7 @@ class article{
 	public $date;
 
 	function fillTemplate(){
-		$html = '<div class="article"><img src="'.$this->image.'" alt="article_image"><div class="title">'.$this->title.'</div><span class="author">'.$this->author.'</span><span class="date">'.$this->date.'</span></div>';
+		$html = '<div class="article"><img src="'.$this->image.'" alt="article_image"><div class="title">'.$this->title.'</div><div class="article_info"><span class="author">'.$this->author.'</span><span class="date">'.$this->date.'</span></div></div>';
 		return $html;
 	}
 }
@@ -31,4 +31,14 @@ foreach ($articles as $a){
 }
 
 echo $html;
+
+//Titulo
+
+
+/*$url = 'http://www.sciencemag.org/news';
+$content = file_get_contents($url);
+$beginning = strpos($content, '<div class="view-article-lists-block-6">');
+$content = substr($content, $beginning);
+*/
+
 ?>

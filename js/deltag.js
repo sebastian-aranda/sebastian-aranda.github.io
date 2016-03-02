@@ -1,6 +1,7 @@
-$('.carousel').carousel('pause');
 
 $(function(){
+	//$('.carousel').carousel('pause');
+
 	$.post("./news.php", function(response){
 		$(".news").html(response);
 	});
@@ -59,4 +60,16 @@ function validateMsgForm(){
     alert(response.error);
     return response;
 }
+
+
+
+/*$(document).ready(function(){
+	if ($(window).width() <= 800){	
+		$(".carousel-caption h2").hide();
+	}else{
+		$(".carousel-caption h2").show();
+
+	}
+});*/
+
 

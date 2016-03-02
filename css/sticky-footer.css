@@ -11,25 +11,59 @@ body {
 }
 
 .footer {
-  /*color: white;*/
   position: absolute;
   bottom: 0;
   left:0;
   right: 0;
   /* Set the fixed height of the footer here */
   height: 100px;
+  text-align: center;
   
 
   padding: 24px 32px;
-  border-top: 1px solid #c7c7c7;*/
+  border-top: 1px solid #c7c7c7;
+}
 
+.footer-logo{
+  float: left;
+  width: 120px;
 }
 
 .footer-content{
-  margin-left: 365px;
+  line-height: 50px;
 }
 
 .footer-social{
   float:right;
-  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 200px;
+  }
+
+  .footer{
+    height: 200px;
+  }
+
+  .footer-logo, .footer-content, .footer-social{
+    margin-bottom: 16px;
+  }
+
+  .footer-logo{
+    display: inline-block;
+    float:none;
+    width: 120px;
+  }
+
+  .footer-content{
+    display: block;
+    line-height: 100%;
+  }
+
+  .footer-social{
+    display: block;
+    float:none;
+  }
 }
