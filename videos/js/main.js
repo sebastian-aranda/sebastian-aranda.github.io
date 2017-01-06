@@ -7,6 +7,10 @@ $(function(){
 	var video = document.getElementById("video");
 	var videoFinal = document.getElementById("video_final");
 
+	video.addEventListener('loadedmetadata', function() {
+		totalVideo = video.duration;
+	});
+
 	if (!splashed){
 		setTimeout(function(){
 			$("body").pagecontainer("change", "#register-page");	
@@ -42,12 +46,7 @@ $(function(){
 		recording = true;
 		$('#record-btn').css('border', '2px solid orange');
 		$('#progress div').css('width', 0);
-
-		var video = document.getElementById("video");
-		video.addEventListener('loadedmetadata', function() {
-			totalVideo = video.duration;
-		});
-
+	
 		clearInterval(recordingInterval);
 		recordingInterval = setInterval(function(){
 			$('.recording').toggle();
