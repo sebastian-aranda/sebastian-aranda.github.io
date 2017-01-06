@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<style type="text/css">
+#splashscreen-page, #register-page{
+	height: 100%;
+}
+
+#splashscreen-page, #register-page{
+	background-color: darkorange;
+	color: white;
+	font-weight: bold;
+}
+
+#splashscreen-page .ui-content, #register-page .ui-content{
+	text-align: center;	
+	height: inherit;
+}
+
+#splashscreen-page .ui-content .helper, #register-page .ui-content .helper, .dubframe .play-container .helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#splashscreen-page .ui-content img{
+	vertical-align: middle;
+}
+
+#register-page .ui-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dubframe{
+	position: relative;
+	width: 100%;
+}
+
+.dubframe video{
+	width: inherit;
+}
+
+.dubframe .play-container{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.dubframe .play-container img{
+	vertical-align: middle;
+}
+
+.dubframe .recording{
+	position: absolute;
+	top: 16px;
+	left: 16px;
+}
+
+.dubframe .brand{
+	position: absolute;
+	bottom: 16px;
+	right: 8px;
+}
+
+img.recording{
+	width: 32px;
+	height: 32px;
+}
+
+.social-btns{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.social-btns img{
+	width: 56px;
+	width: 56px;
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div id="splashscreen-page" data-role="page">
+  <div data-role="main" class="ui-content">
+    <span class="helper"></span><img src="img/logo.png" alt="logo">
+  </div>
+</div>
+
+<div id="register-page" data-role="page">
+	<div data-role="main" class="ui-content">
+		<form class="register-form">
+		  <div class="ui-field-contain">
+		    <label for="user">usuario:</label>
+		    <input type="text" name="user" id="user">
+			<br>
+		    <label for="bday">fecha de nacimiento:</label>
+		    <input type="date" name="bday" id="bday">
+			<br>
+		    <label for="email">E-mail:</label>
+		    <input type="email" name="email" id="email">
+			<br>
+		    <!--<button type="button" class="ui-btn">Registrarse</button>-->
+		    <a href="#uploadvideo-page" class="ui-btn">Registrarse</a>
+		  </div>
+		</form>
+	</div>
+</div>
+
+<div id="config-page" data-role="page">
+	<div data-role="header">
+		<h1>Configuraciones</h1>
+	</div>
+	<div data-role="main" class="ui-content">
+		
+	</div>
+</div>
+
+<div id="uploadvideo-page" data-role="page">
+	<div data-role="header">
+		<h1>Guardar Video</h1>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div class="dubframe">
+			<div class="play-container">
+				<span class="helper"></span><img src="img/play.png" id="play">	
+			</div>
+			<img src="img/recording.png" class="recording">
+			<img src="img/dabadub.png" class="brand" alt="Dub">
+			<video id="video">
+			  <source src="video.mp4" type="video/mp4">
+			  Your browser does not support HTML5 video.
+			</video>	
+		</div>
+		
+		<audio id="audio">
+		  <source src="audio.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
+
+		<div class="ui-grid-b social-btns">
+			<div class="ui-block-a"><button class="ui-btn"><img src="img/download.png" alt="download"></button></div>
+			<div class="ui-block-b"><button class="ui-btn"><img src="img/facebook.png" alt="facebook"></button></div>
+			<div class="ui-block-c"><button class="ui-btn"><img src="img/whatsapp.png" alt="whatsapp"></button></div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(function(){
+		video = document.getElementById("video");
+
+		if (!splashed){
+			setTimeout(function(){
+				$("body").pagecontainer("change", "#register-page");	
+				splashed = true;
+			}, 3000);	
+		}
+
+		$('.dubframe').on('click', function(){
+			//video.volume = 0;
+			$('#play').hide();
+			video.currentTime = 0;
+			video.play();
+		});
+
+		$('#video').on('ended', function(){
+			$('#play').show();
+			clearInterval(recordingInterval);
+			$('.recording').hide();
+		});
+
+		$('#record-btn').on('click', function(){
+			clearInterval(recordingInterval);
+			recordingInterval = setInterval(function(){
+				$('.recording').toggle();
+			}, 1000);
+
+			//grabar audio
+		});
+
+		
+
+		
+	});
+</script>
+</body>
+</html>
