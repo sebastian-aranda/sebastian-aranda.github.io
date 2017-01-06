@@ -53,7 +53,7 @@ $(function(){
 			$('.recording').toggle();
 			var total = parseFloat($('#progress').css('width').replace(/[^-\d\.]/g, ''));
 			var progress = parseFloat($('#progress div').css('width').replace(/[^-\d\.]/g, ''));
-			if (progress <= total){
+			if (progress <= total && totalVideo > 0){
 				var newProgress = progress+total/totalVideo;
 
 				if (newProgress > total)
