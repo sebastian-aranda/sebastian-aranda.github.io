@@ -527,3 +527,8 @@ img::-moz-selection {
     position: absolute;
     z-index: 1000;
 }
+
+.star-link a{
+    width: 100%;
+    height: 100%;
+}
