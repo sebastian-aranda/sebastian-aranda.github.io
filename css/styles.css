@@ -524,6 +524,7 @@ img::-moz-selection {
 }
 
 .star-link{
+    overflow: visible;
     position: absolute;
     z-index: 1000;
 }
