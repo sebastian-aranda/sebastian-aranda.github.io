@@ -560,7 +560,6 @@ input[type=radio] + label:before {
   line-height: 1;
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
-  font-weight: 400;
 }
 .icon > .label {
   display: none;
