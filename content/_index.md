@@ -1,4 +1,4 @@
 ---
-title: "OCEANIA"
-icon: "ship fas solid"
+title: "Sebastián Aranda Page"
+icon: "atom fas solid"
 ---
