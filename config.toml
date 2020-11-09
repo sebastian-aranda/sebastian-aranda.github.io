@@ -1,0 +1,7 @@
+baseURL = "https://sebastian-aranda.github.io/"
+languageCode = "en-us"
+title = "Sebastián Aranda Page"
+theme = "dimension"
+
+[params]
+	icon = "atom fas"
