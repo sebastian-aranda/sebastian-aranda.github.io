@@ -1,4 +1,4 @@
 ---
 title: "OCEANIA"
-icon: "ship fas"
+icon: "ship fas solid"
 ---
