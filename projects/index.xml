@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Sebastián Aranda Page</title>
-    <link>https://modest-murdock-563517.netlify.app/projects/</link>
+    <link>http://sebastianaranda.com/projects/</link>
     <description>Recent content in Projects on Sebastián Aranda Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 16:05:25 -0300</lastBuildDate><atom:link href="https://modest-murdock-563517.netlify.app/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 16:05:25 -0300</lastBuildDate><atom:link href="http://sebastianaranda.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spectral Line Classification</title>
-      <link>https://modest-murdock-563517.netlify.app/projects/spectral-line-classification-llda/</link>
+      <link>http://sebastianaranda.com/projects/spectral-line-classification-llda/</link>
       <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
       
-      <guid>https://modest-murdock-563517.netlify.app/projects/spectral-line-classification-llda/</guid>
+      <guid>http://sebastianaranda.com/projects/spectral-line-classification-llda/</guid>
       <description>Labeled Latent Dirichlet Allocation model implementation for spectral line classification on ALMA Astronomy Datacubes
 The discipline of astroinformatics has grown a lot over the past few years thanks to the creation of bigger and more sophisticated telescopes, such as the Atacama Large Millimeter/submillimeter Array. With better spectral resolution in data, a new challenge is set in the way astronomical data is analyzed. In particular, data cubes produced by radioastronomy projects have generated an explosion in the volume of data retrieved.</description>
     </item>
