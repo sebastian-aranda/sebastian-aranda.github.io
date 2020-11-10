@@ -3,15 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sebastian-aranda.github.io/categories/</loc>
+    <loc>https://modest-murdock-563517.netlify.app/</loc>
+    <lastmod>2020-11-06T16:22:37-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sebastian-aranda.github.io/</loc>
+    <loc>https://modest-murdock-563517.netlify.app/projects/spectral-line-classification-llda/</loc>
+    <lastmod>2020-11-06T16:22:37-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sebastian-aranda.github.io/tags/</loc>
+    <loc>https://modest-murdock-563517.netlify.app/about/</loc>
+    <lastmod>2020-11-06T16:05:25-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://modest-murdock-563517.netlify.app/projects/</loc>
+    <lastmod>2020-11-06T16:05:25-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://modest-murdock-563517.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://modest-murdock-563517.netlify.app/tags/</loc>
   </url>
   
 </urlset>

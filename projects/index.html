@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.78.0" />
-    <title>Sebastián Aranda Page</title>
+    <title>Projects</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="https://modest-murdock-563517.netlify.app/assets/css/main.css"/>
@@ -26,7 +25,7 @@
                     </div>
                     <div class="content">
                         <div class="inner">
-                            <h1>Sebastián Aranda Page</h1>
+                            <h1>Projects</h1>
                             
                         </div>
                     </div>
@@ -36,14 +35,8 @@
                                 
                                     
                                         <li>
-                                            <a href="#about-me">About me</a>
+                                            <a href="#spectral-line-classification">Spectral Line Classification</a>
                                         </li>
-                                    
-                                
-                            
-                                
-                                    
-                                        <li><a href="https://modest-murdock-563517.netlify.app/projects/">Projects</a></li>
                                     
                                 
                             
@@ -57,24 +50,15 @@
                     
                         
                             
-                                <article id="about-me">
-                                    <h2 class="major">About me</h2>
-                                    <span class="image main"><img src="" alt="" /></span>
-                                    <h1 id="my-dream">My dream</h1>
-<p>To work in astronomy and computing: I consider myself a great programmer, but I would love to put my skills at the service of astronomy.</p>
-<h1 id="who-am-i">Who am I</h1>
-<p>Hello, I am a computer engineer who loves science and astronomy. I&rsquo;ve studied at Federico Santa María Technical University, where I&rsquo;ve learned most of my academic knowledge. I like multidisciplinary work spaces, learn from others and generate solutions together is my motivation. I am very structured, commited and disciplined with my work. In my adolescence I&rsquo;ve dedicated great part of my time be volunteer in social projects, this allows me to have another perspective regarding many social things. I&rsquo;m currently the coordinator of a project in a non-profit educational fundation <a href="https://www.escuelasrecrear.cl/">Escuelas Recrear</a> in which I actively participate and also work at <a href="https://inria.cl/es">Inria Chile</a> where I perform as a software engineer, developing IT solutions.</p>
-<h1 id="my-skills">My skills</h1>
-<p>Thanks to my time in Escuelas Recrear I have a lot of experience in project management, teamwork and communication.</p>
-<h1 id="my-interests">My interests</h1>
-<p>Machine learning, Artificial Intelligence.</p>
-<p>Small change.</p>
+                                <article id="spectral-line-classification">
+                                    <h2 class="major">Spectral Line Classification</h2>
+                                    <span class="image main"><img src="/images/llda_slc_example.png" alt="" /></span>
+                                    <p><a href="https://github.com/sebastian-aranda/Labeled-LDA-Spectral-Line-Classification">Labeled Latent Dirichlet Allocation model implementation for spectral line classification on ALMA Astronomy Datacubes</a></p>
+<p>The discipline of astroinformatics has grown a lot over the past few years thanks to the creation of bigger and more sophisticated telescopes, such as the Atacama Large Millimeter/submillimeter Array. With better spectral resolution in data, a new challenge is set in the way astronomical data is analyzed. In particular, data cubes produced by radioastronomy projects have generated an explosion in the volume of data retrieved. Some tasks, such as
+the identification of spectral lines becomes more complex. For this reason it is essential to develope accurate analysis tools that allows data to be processed automatically.</p>
+<p>This works propose a novel method in the way spectra can be classified. The approach is based on an algorithm used in the world of Text Mining, named Latent Dirichlet Allocation, a probabilistic generative model capable of describing documents as a random mixture of words over topics. Here, each spectrum is represented as a mixture of transitions over species. A spectral line transitions database named Splatalogue is used to train different models based on the type of observed object or ALMA band. The algorithm is evaluated using the model to analyze real world data cubes and spectral line surveys from radioastronomy observations of ALMA. The main advantage of the proposal is the ability to model sparse and high dimensional data using posterior inference to classify new spectral observations. Results shows that L-LDA can be used to clasifiy spectral lines on data cubes with up to 97 % of accuracy.</p>
 
                                 </article>
-                            
-                        
-                    
-                        
                             
                         
                     
