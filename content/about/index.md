@@ -18,7 +18,3 @@ Thanks to my time in Escuelas Recrear I have a lot of experience in project mana
 # My interests
 
 Machine learning, Artificial Intelligence.
-
-
-
-Small change.
