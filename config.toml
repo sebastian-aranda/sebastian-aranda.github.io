@@ -1,7 +1,7 @@
-baseURL = "https://modest-murdock-563517.netlify.app/"
+baseURL = "http://sebastianaranda.com/"
 languageCode = "en-us"
 title = "Sebastián Aranda Page"
 theme = "dimension"
 
 [params]
-	icon = "atom fas"
+	icon = "atom fas solid"
