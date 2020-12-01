@@ -1,6 +1,6 @@
-baseURL = "http://sebastianaranda.com/"
+baseURL = "http://www.sebastianaranda.com/"
 languageCode = "en-us"
-title = "Sebastián Aranda Page"
+title = "Sebastián Aranda Sánchez website"
 theme = "dimension"
 
 [params]
