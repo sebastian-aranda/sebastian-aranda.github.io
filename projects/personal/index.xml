@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Projects on Sebastián Aranda Sánchez website</title>
+    <link>http://www.sebastianaranda.com/projects/personal/</link>
+    <description>Recent content in Personal Projects on Sebastián Aranda Sánchez website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 16:05:25 -0300</lastBuildDate><atom:link href="http://www.sebastianaranda.com/projects/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spectral Line Classification</title>
+      <link>http://www.sebastianaranda.com/projects/personal/spectral-line-classification-llda/</link>
+      <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
+      
+      <guid>http://www.sebastianaranda.com/projects/personal/spectral-line-classification-llda/</guid>
+      <description>Labeled Latent Dirichlet Allocation model implementation for spectral line classification on ALMA Astronomy Datacubes
+The discipline of astroinformatics has grown a lot over the past few years thanks to the creation of bigger and more sophisticated telescopes, such as the Atacama Large Millimeter/submillimeter Array. With better spectral resolution in data, a new challenge is set in the way astronomical data is analyzed. In particular, data cubes produced by radioastronomy projects have generated an explosion in the volume of data retrieved.</description>
+    </item>
+    
+  </channel>
+</rss>
