@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jobs Projects on Sebastián Aranda Sánchez website</title>
-    <link>http://www.sebastianaranda.com/projects/jobs/</link>
+    <link>https://www.sebastianaranda.com/projects/jobs/</link>
     <description>Recent content in Jobs Projects on Sebastián Aranda Sánchez website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 16:05:25 -0300</lastBuildDate><atom:link href="http://www.sebastianaranda.com/projects/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 16:05:25 -0300</lastBuildDate><atom:link href="https://www.sebastianaranda.com/projects/jobs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Management Systems</title>
-      <link>http://www.sebastianaranda.com/projects/jobs/enovus/</link>
+      <link>https://www.sebastianaranda.com/projects/jobs/enovus/</link>
       <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
       
-      <guid>http://www.sebastianaranda.com/projects/jobs/enovus/</guid>
+      <guid>https://www.sebastianaranda.com/projects/jobs/enovus/</guid>
       <description>Where At ENOVUS
 What I&amp;rsquo;ve worked implementing a lot of LMS systems (Learning Management Systems) used for e-learning education. I&amp;rsquo;ve developed several components of different kind, in Frontend and Backend. Also worked with a lot of clients, using and agile approach with regular meetings to indentify, discuss and validate requirements.
 How Frontend: HMTL, CSS, CSS3, SASS, Javascript

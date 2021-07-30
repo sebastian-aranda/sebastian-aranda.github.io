@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Sebastián Aranda Sánchez website</title>
-    <link>http://www.sebastianaranda.com/projects/</link>
+    <link>https://www.sebastianaranda.com/projects/</link>
     <description>Recent content in Projects on Sebastián Aranda Sánchez website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 16:05:25 -0300</lastBuildDate><atom:link href="http://www.sebastianaranda.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 16:05:25 -0300</lastBuildDate><atom:link href="https://www.sebastianaranda.com/projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
