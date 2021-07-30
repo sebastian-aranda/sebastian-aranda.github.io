@@ -1,4 +1,4 @@
-baseURL = "http://www.sebastianaranda.com/"
+baseURL = "https://www.sebastianaranda.com/"
 languageCode = "en-us"
 title = "Sebastián Aranda Sánchez website"
 theme = "dimension"
