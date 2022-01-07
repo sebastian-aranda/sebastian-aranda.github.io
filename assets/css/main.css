@@ -1332,7 +1332,7 @@ body.is-preload #header .content .inner {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  position: relative;
+  /*position: relative;*/
   max-width: 100%;
   z-index: 3;
 }
@@ -1346,7 +1346,7 @@ body.is-preload #header .content .inner {
   -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
   padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-  position: relative;
+  /*position: relative;*/
   width: 40rem;
   max-width: 100%;
   background-color: rgba(27, 31, 34, 0.85);
