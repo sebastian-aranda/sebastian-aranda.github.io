@@ -1142,6 +1142,10 @@ body.is-preload #bg:before {
   justify-content: center;
   align-items: center;
 }
+#header .logo img {
+    height: 72px;
+    width: auto;
+  }
 #header .logo .icon:before {
   font-size: 2rem;
 }
@@ -1269,6 +1273,11 @@ body.is-preload #header .content .inner {
     justify-content: center;
     align-items: center;
   }
+  #header .logo img {
+    height: 32px;
+    width: auto;
+  }
+
   #header .logo .icon:before {
     font-size: 1.75rem;
   }
