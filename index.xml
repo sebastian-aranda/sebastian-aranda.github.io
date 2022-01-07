@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 06 Nov 2020 16:22:37 -0300</lastBuildDate><atom:link href="https://www.sebastianaranda.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Management Systems</title>
-      <link>https://www.sebastianaranda.com/projects/jobs/enovus/</link>
+      <link>https://www.sebastianaranda.com/projects/enovus/</link>
       <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
       
-      <guid>https://www.sebastianaranda.com/projects/jobs/enovus/</guid>
+      <guid>https://www.sebastianaranda.com/projects/enovus/</guid>
       <description>Where At ENOVUS
 What I&amp;rsquo;ve worked implementing a lot of LMS systems (Learning Management Systems) used for e-learning education. I&amp;rsquo;ve developed several components of different kind, in Frontend and Backend. Also worked with a lot of clients, using and agile approach with regular meetings to indentify, discuss and validate requirements.
 How Frontend: HMTL, CSS, CSS3, SASS, Javascript
@@ -22,10 +22,10 @@ Tools: Navicat, Trello, Mailgun, SENCE integration</description>
     
     <item>
       <title>Spectral Line Classification</title>
-      <link>https://www.sebastianaranda.com/projects/personal/spectral-line-classification-llda/</link>
+      <link>https://www.sebastianaranda.com/projects/spectral-line-classification-llda/</link>
       <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
       
-      <guid>https://www.sebastianaranda.com/projects/personal/spectral-line-classification-llda/</guid>
+      <guid>https://www.sebastianaranda.com/projects/spectral-line-classification-llda/</guid>
       <description>Labeled Latent Dirichlet Allocation model implementation for spectral line classification on ALMA Astronomy Datacubes
 The discipline of astroinformatics has grown a lot over the past few years thanks to the creation of bigger and more sophisticated telescopes, such as the Atacama Large Millimeter/submillimeter Array. With better spectral resolution in data, a new challenge is set in the way astronomical data is analyzed. In particular, data cubes produced by radioastronomy projects have generated an explosion in the volume of data retrieved.</description>
     </item>
