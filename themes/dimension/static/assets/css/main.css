@@ -1138,9 +1138,12 @@ body.is-preload #bg:before {
   line-height: 5.5rem;
   border: solid 1px #ffffff;
   border-radius: 100%;
+}
+#header .logo a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 #header .logo img {
     height: 72px;
@@ -1269,9 +1272,12 @@ body.is-preload #header .content .inner {
     width: 4.75rem;
     height: 4.75rem;
     line-height: 4.75rem;
+  }
+  #header .logo a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
   }
   #header .logo img {
     height: 32px;
