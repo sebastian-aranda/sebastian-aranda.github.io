@@ -74,7 +74,6 @@ $( document ).ready(function() {
 				bgOpacity: 0.8,
 				showHideOpacity: true,
 				closeOnScroll: false,
-				modal: false,
 			}
 			new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options).init();
 		});	

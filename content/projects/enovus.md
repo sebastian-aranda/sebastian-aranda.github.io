@@ -5,6 +5,10 @@ draft: false
 image: /images/projects/enovus/enovus.png
 ---
 
+# When
+
+From Aug 2014 to Feb 2020
+
 # Where
 
 At [ENOVUS](https://www.enovus.cl/)
@@ -23,6 +27,6 @@ Tools: Navicat, Trello, Mailgun, SENCE integration
 
 # Examples
 
-{{< gallery dir="/images/projects/enovus/examples/" />}} {{< load-photoswipe >}}
+{{< gallery dir="/images/projects/enovus/examples/" />}}
 
 
