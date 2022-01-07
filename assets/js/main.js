@@ -316,19 +316,19 @@
 			});
 
 		// Events.
-			$body.on('click', function(event) {
+			// $body.on('click', function(event) {
 
-				// Article visible? Go back. Hide when article is accessed first.
-					if ($body.hasClass('is-article-visible')) {
-						if (nohash) {
-							history.go(-1);
-						} else {
-							$main._hide(true);
-							nohash = true;
-						}
-					}
+			// 	// Article visible? Go back. Hide when article is accessed first.
+			// 		if ($body.hasClass('is-article-visible')) {
+			// 			if (nohash) {
+			// 				history.go(-1);
+			// 			} else {
+			// 				$main._hide(true);
+			// 				nohash = true;
+			// 			}
+			// 		}
 
-			});
+			// });
 
 			$window.on('keyup', function(event) {
 
