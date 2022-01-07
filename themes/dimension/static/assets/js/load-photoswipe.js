@@ -72,7 +72,9 @@ $( document ).ready(function() {
 			var options = {
 				index: index, 
 				bgOpacity: 0.8,
-				showHideOpacity: true
+				showHideOpacity: true,
+				closeOnScroll: false,
+				modal: false,
 			}
 			new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options).init();
 		});	

@@ -24,6 +24,5 @@ Tools: Navicat, Trello, Mailgun, SENCE integration
 # Examples
 
 {{< gallery dir="/images/projects/enovus/examples/" />}} {{< load-photoswipe >}}
-Under construction.
 
 
