@@ -29,4 +29,5 @@ Tools: Navicat, Trello, Mailgun, SENCE integration
 
 {{< gallery dir="/images/projects/enovus/examples/" />}}
 
-
+# Demos
+- [Sello ESB - Demo](/images/projects/enovus/demos/SelloESB-Demo.gif)
