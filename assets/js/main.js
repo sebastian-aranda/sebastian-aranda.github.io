@@ -76,8 +76,10 @@
 
 		// Methods.
 			$main._show = function(id, initial) {
-
 				var $article = $main_articles.filter('#' + id);
+
+				// Load photoswipe
+				$article.find('figure').each(loadPhotoSwipe);
 
 				// No such article? Bail.
 					if ($article.length == 0)
@@ -205,6 +207,9 @@
 			$main._hide = function(addState) {
 
 				var $article = $main_articles.filter('.active');
+
+				// Unload photoswipe
+				$article.find('figure').each(unloadPhotoSwipe);
 
 				// Article not visible? Bail.
 					if (!$body.hasClass('is-article-visible'))
