@@ -4,30 +4,34 @@ date: 2022-04-10T00:00:00-00:00
 draft: false
 ---
 
-# Computer formatting
+## Software Development
 
-I've helped a lot of friends with their pcs. It is always necessary to do some maintenance to our devices, in particular a computer clean is the best choice to start almost from 0 and feel again your computer performance.
+{{< image src="/images/services/code.jpg" alt="Software Development" class="image left" >}}
 
-# Computer software failures fixes
+I've developed several web applications for small and big companies. If you need to build a website or application, from a simple landing page to a more complex system such as an ERP, I can give you a hand: designing, developing, deploying, hosting and mantining.
 
-Also if you don't want to clean your computer, but you need to fix a specific problem: missing drivers, programs that stopped working, or any software problem, I can give you a nad.
+{{< clearfix >}}
 
-# Web sites development
+## IT Support
 
-I've developed several web sites for small companies and a few for bigger companies. If you need a new website, changes or support for your current one, I can also help you in the process.
+{{< image src="/images/services/it-support.jpg" alt="IT Support" class="image left" >}}
 
-# Movil applications development: web and android
+I really like to solve problems. I can provide support with different kind of computer problems: hardware diagnostics, software reparation, troubleshooting and customer support. Any problem you have feel free to ask.
 
-Somewhat similar to web development, I can help you with it.
+{{< clearfix >}}
 
-# Process automation
+## Computer formatting
 
-If you are working on a personal project, school or unversity project. I can give you some advices of what you are doing.
+{{< image src="/images/services/computer-formatting.jpg" alt="Computer Formatting" class="image left" >}}
 
-# Software consultancy
+I've helped a lot of friends with their pcs. I can provide computer formatting services: operative system reinstallation, hard drive backup, partition creation, new hard drive installation, basic application installations. Support is given previously, during and after the particular work.
 
-Any kind of software doubt you have feel free to ask.
+{{< clearfix >}}
 
-# Classes
+## Software consultancy
 
-I also do particular classes: mathematics, physics, programming, software engineer. 
+If you need a new idea of any kind feel free to ask. I can help you assess and raise the efficiency of technology-enabled business processes.
+
+## Teaching
+
+I also give private lessons on mathematics, physics, programming and software engineer. 

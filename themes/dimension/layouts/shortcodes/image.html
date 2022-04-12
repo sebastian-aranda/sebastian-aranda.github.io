@@ -1,0 +1,4 @@
+{{- $thumb := .Get "src" | default (printf "%s." (.Get "thumb") | replace (.Get "link") ".") }}
+<img itemprop="thumbnail" src="{{ $thumb | relURL }}"
+  {{ with .Get "alt" | default (.Get "caption") }}alt="{{.}}"{{ end }}
+  {{ with .Get "class" }}class="{{.}}"{{ end }}/>
