@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Nov 2020 16:22:37 -0300</lastBuildDate><atom:link href="https://www.sebastianaranda.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Services</title>
+      <link>https://www.sebastianaranda.com/services/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sebastianaranda.com/services/</guid>
+      <description>Software Development I&amp;rsquo;ve developed several web applications for small and big companies. If you need to build a website or application, from a simple landing page to a more complex system such as an ERP, I can give you a hand: designing, developing, deploying, hosting and mantining.
+ IT Support I really like to solve problems. I can provide support with different kind of computer problems: hardware diagnostics, software reparation, troubleshooting and customer support.</description>
+    </item>
+    
+    <item>
       <title>Learning Management Systems</title>
       <link>https://www.sebastianaranda.com/projects/enovus/</link>
       <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
