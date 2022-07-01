@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sebastián Aranda Sánchez website</title>
+    <link>https://www.sebastianaranda.com/es/</link>
+    <description>Recent content on Sebastián Aranda Sánchez website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sebastian Aranda Sanchez</copyright><atom:link href="https://www.sebastianaranda.com/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servicios</title>
+      <link>https://www.sebastianaranda.com/es/services/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sebastianaranda.com/es/services/</guid>
+      <description>Desarrollo de Software He desarrollado diversas aplicaciones webs para pequeñas y grandes compañias. Si necesitas construir un sitio o una aplicación web, desde una simple landing page a sistemas más complejos como ERPs, carritos de compra, etc; yo te puedo dar una mano: diseñando, desarrollado, desplegando, alojando o manteniendo el software que tu necesites.
+ Soporte Técnico Me gusta resolver problemas. Te puedo ayudar con diversos problemas que pueda presentar tu equipo: diagnóstico de hardware, reparación de software, resolución de dudas y soporte.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://www.sebastianaranda.com/es/about/</link>
+      <pubDate>Fri, 06 Nov 2020 16:05:25 -0300</pubDate>
+      
+      <guid>https://www.sebastianaranda.com/es/about/</guid>
+      <description>Who I am Hola, my name is Sebastian Aranda Sanchez, mainly known as Seba and I&amp;rsquo;m a computer engineer who loves science and astronomy. I&amp;rsquo;ve studied at Federico Santa María Technical University, where I&amp;rsquo;ve learned most of my academic knowledge. I like multidisciplinary work spaces, learn from others and generate solutions together, that is my motivation. I am very structured, commited and disciplined with my work, give me any problem and I&amp;rsquo;ll find the way to solve it.</description>
+    </item>
+    
+  </channel>
+</rss>

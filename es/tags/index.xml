@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sebastián Aranda Sánchez website</title>
-    <link>https://www.sebastianaranda.com/tags/</link>
+    <link>https://www.sebastianaranda.com/es/tags/</link>
     <description>Recent content in Tags on Sebastián Aranda Sánchez website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Sebastian Aranda Sanchez</copyright><atom:link href="https://www.sebastianaranda.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Sebastian Aranda Sanchez</copyright><atom:link href="https://www.sebastianaranda.com/es/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
