@@ -1,7 +1,16 @@
+copyright = 'Sebastian Aranda Sanchez'
 baseURL = "https://www.sebastianaranda.com/"
 languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Sebastián Aranda Sánchez website"
 theme = "dimension"
+[languages]
+  [languages.en]
+  	weight = 1
+  	title = "Sebastián Aranda Sánchez website"
+  [languages.es]
+  	weight = 2
+  	title = "Sebastián Aranda Sánchez website"
 
 [params]
 	icon = "atom fas solid"
