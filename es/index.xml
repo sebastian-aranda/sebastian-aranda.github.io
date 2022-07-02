@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sebastián Aranda Sánchez website</title>
+    <title>Sebastian Aranda Sánchez website</title>
     <link>https://www.sebastianaranda.com/es/</link>
-    <description>Recent content on Sebastián Aranda Sánchez website</description>
+    <description>Recent content on Sebastian Aranda Sánchez website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
+    <language>es-ES</language>
     <copyright>Sebastian Aranda Sanchez</copyright><atom:link href="https://www.sebastianaranda.com/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Servicios</title>
@@ -15,6 +15,15 @@
       <guid>https://www.sebastianaranda.com/es/services/</guid>
       <description>Desarrollo de Software He desarrollado diversas aplicaciones webs para pequeñas y grandes compañias. Si necesitas construir un sitio o una aplicación web, desde una simple landing page a sistemas más complejos como ERPs, carritos de compra, etc; yo te puedo dar una mano: diseñando, desarrollado, desplegando, alojando o manteniendo el software que tu necesites.
  Soporte Técnico Me gusta resolver problemas. Te puedo ayudar con diversos problemas que pueda presentar tu equipo: diagnóstico de hardware, reparación de software, resolución de dudas y soporte.</description>
+    </item>
+    
+    <item>
+      <title>Acerca mio</title>
+      <link>https://www.sebastianaranda.com/es/about/</link>
+      <pubDate>Fri, 06 Nov 2020 16:05:25 -0300</pubDate>
+      
+      <guid>https://www.sebastianaranda.com/es/about/</guid>
+      <description>Quién soy Hola, mi nombre es Sebastián Aranda Sánchez, más conocido como Seba, y soy un Ingeniero Informático Chileno que ama las Ciencias y Astronomía. Mi interés en la tecnología viene desde que soy pequeño porque soy Gamer de corazón, por eso mi cercanía al rubro. Estudié en la Universidad Técnica Federico Santa María, en donde aprendí gran parte de mis conocimientos académicos. LLevo cerca de 6 años trabajando en Informática (en trabajos estables y un par de emprendimientos fallidos), principalmente dedicado al Desarrollo Web.</description>
     </item>
     
   </channel>

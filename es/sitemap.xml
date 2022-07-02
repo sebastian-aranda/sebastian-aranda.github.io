@@ -15,6 +15,19 @@
                 href="https://www.sebastianaranda.com/es/services/"
                 />
   </url><url>
+    <loc>https://www.sebastianaranda.com/es/about/</loc>
+    <lastmod>2020-11-06T16:05:25-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.sebastianaranda.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.sebastianaranda.com/es/about/"
+                />
+  </url><url>
     <loc>https://www.sebastianaranda.com/es/categories/</loc>
     <xhtml:link
                 rel="alternate"

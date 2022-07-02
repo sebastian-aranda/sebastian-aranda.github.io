@@ -1,0 +1,8 @@
+.content-social {
+	display: flex;
+	justify-content: space-around;
+}
+
+.content-social > a {
+	font-size: 2em;
+}
