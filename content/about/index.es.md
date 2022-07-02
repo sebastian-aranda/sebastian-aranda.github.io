@@ -17,13 +17,10 @@ Trabajar como Ingeniero en Astronomía y Computación.
 
 # Mis habilidades
 
-I have a lot of experience in project management, teamwork and communication. I'm also a very skilled programmer with background in a lot of different technologies. I also have some knowledge in the field of Artificial Intelligence (AI), Machine Learning and Data Science.
-
 Tengo mucha experiencia en gestión de proyectos, trabajo en equipo y comunicación. También me considero un programador muy hábil con conocimiento en amplio espectro de tecnologías. También tengo ciertos conocimientos en el área de la Inteligencia Artificial (IA), Machine Learning y Data Science.
 
 Puedes revisar mi currículum: [CV](/cv__spanish_.pdf).
 
 # Mis intereses
 
-Universe, Nature, Astronomy, Machine Learning, Artificial Intelligence, Data Science, Programming, Open-Source Software, Society, Education, Sports. 
 Universo, Naturaleza, Astronomía, Ciencias, Tecnologías, Desarrollo Web, Blockchain, Inteligencia Artificial, Machine Learning, Data Science, Programación, Software de Código Abierto, Sociedad, Educación, Deportes, Video juegos y Bitcoin.
