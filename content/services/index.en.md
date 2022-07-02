@@ -36,3 +36,9 @@ If you need a new idea and you have questions about of any kind: programming lan
 
 I also like to teach! I can help you with mathematics, physics, programming, software engineer, data analysis, machine learning, artificial intelligence.
 
+# Contact me 📧
+
+You can find me on my social media:
+
+{{< social >}}
+

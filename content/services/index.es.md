@@ -35,3 +35,9 @@ Si tienes una nueva idea y tienes dudas de cualquier tipo: lenguajes de programa
 ## Teaching
 
 También me gusta enseñar! Te puedo ayudar con matemáticas, física, programación, ingeniería de software, análisis de datos, machine learning, inteligencia artificial.
+
+# Contáctame 📧
+
+Me puedes encontrar en mis redes sociales:
+
+{{< social >}}
