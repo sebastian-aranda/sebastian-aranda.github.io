@@ -52,6 +52,6 @@ Technologies: Websockets + Rest APIs + JSON + JAML + XML + Docker + Kubernetes
 
 Tools: Github + Jenkins + JIRA + Confluence + ClickUp + Pytest + Eslint + Prettier + Black + Flake8 + Pytest
 
-# Examples
+# Examples - under construction
 
 {{< gallery dir="/images/projects/inria/examples/" />}}
