@@ -6,6 +6,10 @@
     <description>Recent content in Categories on Sebastian Aranda Sánchez website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Sebastian Aranda Sanchez</copyright><atom:link href="https://www.sebastianaranda.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Sebastian Aranda Sanchez</copyright>
+    
+	<atom:link href="https://www.sebastianaranda.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

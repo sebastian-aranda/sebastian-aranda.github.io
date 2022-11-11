@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sebastian Aranda Sanchez</copyright>
-    <lastBuildDate>Fri, 06 Nov 2020 16:22:37 -0300</lastBuildDate><atom:link href="https://www.sebastianaranda.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.sebastianaranda.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LOVE</title>
+      <link>https://www.sebastianaranda.com/projects/inria/</link>
+      <pubDate>Tue, 01 Nov 2022 16:11:37 -0300</pubDate>
+      
+      <guid>https://www.sebastianaranda.com/projects/inria/</guid>
+      <description>When From Oct 2020 to Today
+Where At INRIA for collaboration with the Vera C. Rubin Observatory.
+What I&amp;rsquo;ve worked as programmer and currently project leader of LOVE, the LSST Operators Visualization Environment, a system to monitor several components of the Vera C. Rubin Observatory. This Observatory has over 65 subsystems that monitors different aspects of the telescope and its environment. LOVE is connected to the mayority of these systems.</description>
+    </item>
+    
     <item>
       <title>Services</title>
       <link>https://www.sebastianaranda.com/services/</link>
