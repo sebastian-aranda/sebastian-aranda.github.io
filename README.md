@@ -18,3 +18,11 @@ This project is deployed using GitHub Pages. To contribute:
 ## Deploying
 
 This site is automatically deployed using GitHub Pages. Make sure to commit compiled files to the `gh-pages` branch.
+
+## SASS
+
+This project uses SASS for styling. To compile SASS files, you can use the following command:
+
+```bash
+sass themes/dimension/static/assets/sass/main.scss themes/dimension/static/assets/css/main.css
+```
