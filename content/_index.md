@@ -1,4 +1,4 @@
 ---
 icon: "atom fas solid"
-title: "Sebastian Aranda Sanchez website"
+title: "Sebastian Aranda Sanchez"
 ---
