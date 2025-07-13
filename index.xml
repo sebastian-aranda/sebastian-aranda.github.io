@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sebastian Aranda Sanchez website on Sebastian Aranda Sánchez website</title>
+    <title>Sebastian Aranda Sanchez on Sebastian Aranda Sánchez website</title>
     <link>https://www.sebastianaranda.com/</link>
-    <description>Recent content in Sebastian Aranda Sanchez website on Sebastian Aranda Sánchez website</description>
+    <description>Recent content in Sebastian Aranda Sanchez on Sebastian Aranda Sánchez website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sebastian Aranda Sanchez</copyright>
-    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.sebastianaranda.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>LOVE</title>
-      <link>https://www.sebastianaranda.com/projects/inria/</link>
-      <pubDate>Tue, 01 Nov 2022 16:11:37 -0300</pubDate>
-      
-      <guid>https://www.sebastianaranda.com/projects/inria/</guid>
-      <description>When From Oct 2020 to Today
-Where At INRIA for collaboration with the Vera C. Rubin Observatory.
-What I&amp;rsquo;ve worked as programmer and currently project leader of LOVE, the LSST Operators Visualization Environment, a system to monitor several components of the Vera C. Rubin Observatory. This Observatory has over 65 subsystems that monitors different aspects of the telescope and its environment. LOVE is connected to the mayority of these systems.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:02 +0000</lastBuildDate><atom:link href="https://www.sebastianaranda.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Services</title>
       <link>https://www.sebastianaranda.com/services/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Jul 2025 00:00:03 +0000</pubDate>
       
       <guid>https://www.sebastianaranda.com/services/</guid>
-      <description>Software Development I&amp;rsquo;ve developed several web applications for small and big companies. If you need to build a website or application, from a simple landing page to a more complex system such as an ERP, I can give you a hand: designing, developing, deploying, hosting and mantining the sofware you need.
- IT Support I really like to solve problems. I can provide support with different kind of computer problems: hardware diagnostics, software reparation, troubleshooting and customer support.</description>
+      <description>Software Development I specialize in building web applications for businesses of all sizes. Whether you need a simple landing page or a robust system like an ERP, I can assist with every stage: design, development, deployment, hosting, and ongoing maintenance. Let’s turn your ideas into reliable, scalable software solutions tailored to your needs.
+ IT Support I enjoy solving technical challenges and can assist with a wide range of computer issues, including hardware diagnostics, software troubleshooting, and customer support.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://www.sebastianaranda.com/about/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:01 +0000</pubDate>
+      
+      <guid>https://www.sebastianaranda.com/about/</guid>
+      <description>Who I Am Hello! My name is Sebastian Aranda Sanchez, I&amp;rsquo;m from Chile 🇨🇱️ and I work as a Fullstack Software Engineer 👨‍💻️. I&amp;rsquo;m passionate about Science, Technology, Astronomy, Artificial Intelligence and Education. I studied Computer Engineering at the Federico Santa Maria Technical University (UTFSM, by its acronym in Spanish) in Chile, where I learned the fundamentals of Mathematics, Physics, and Chemistry, and took engineering courses in Computing and Programming, Project Management, Artificial Intelligence (AI), and Machine Learning (ML).</description>
+    </item>
+    
+    <item>
+      <title>LOVE</title>
+      <link>https://www.sebastianaranda.com/projects/love/</link>
+      <pubDate>Tue, 01 Nov 2022 16:11:37 -0300</pubDate>
+      
+      <guid>https://www.sebastianaranda.com/projects/love/</guid>
+      <description>Inria Chile 10 years Vera C. Rubin Observatory first look, La Serena base cacility celebration When From Oct 2020 to Today.
+Where I started as developer at INRIA Chile, the contractor for the initial development of the project. I was also able to take a tech lead and project management position in the project to lead the successful completion of the contract with the Vera C. Rubin Observatory. Then I was hired as Frontend Web Developer by the Rubin Observatory to keep maintaning the project.</description>
     </item>
     
     <item>
@@ -66,15 +70,6 @@ What I&amp;rsquo;ve participated on the creation an entrepreneurship company cal
       <guid>https://www.sebastianaranda.com/projects/spectral-line-classification-llda/</guid>
       <description>Labeled Latent Dirichlet Allocation model implementation for spectral line classification on ALMA Astronomy Datacubes
 The discipline of astroinformatics has grown a lot over the past few years thanks to the creation of bigger and more sophisticated telescopes, such as the Atacama Large Millimeter/submillimeter Array. With better spectral resolution in data, a new challenge is set in the way astronomical data is analyzed. In particular, data cubes produced by radioastronomy projects have generated an explosion in the volume of data retrieved.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://www.sebastianaranda.com/about/</link>
-      <pubDate>Fri, 06 Nov 2020 16:05:25 -0300</pubDate>
-      
-      <guid>https://www.sebastianaranda.com/about/</guid>
-      <description>Who I am Hello, my name is Sebastian Aranda Sanchez, mainly known as Seba and I&amp;rsquo;m a Chilean Computer Engineer who loves Science and Astronomy. My interests in technology comes since I&amp;rsquo;m a child as I love video games, hence my cercany to the field. I&amp;rsquo;ve studied at Federico Santa María Technical University, where I&amp;rsquo;ve learned most of my academic knowledge. I&amp;rsquo;ve benn working in Informatic from at least 6 years (in stable jobs and also some failed ventures), mainly focused on Web Development.</description>
     </item>
     
   </channel>

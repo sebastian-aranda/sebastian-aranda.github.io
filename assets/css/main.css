@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import 'fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 /*
@@ -208,7 +207,6 @@ h6 {
     font-size: 1.75rem;
     line-height: 1.4;
   }
-
   h2 {
     font-size: 1.25em;
     line-height: 1.5;
@@ -484,7 +482,7 @@ input[type=radio]:checked + label:before {
   background: #ffffff !important;
   border-color: #ffffff !important;
   color: #1b1f22;
-  content: "";
+  content: "\f00c";
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
@@ -575,6 +573,10 @@ input[type=radio] + label:before {
 }
 
 /* Image */
+article .image {
+  width: 100%;
+}
+
 .image {
   border-radius: 4px;
   border: 0;
@@ -773,17 +775,17 @@ ul.actions.fit.stacked {
     padding-top: 0;
   }
   ul.actions:not(.fixed) li input[type=submit],
-ul.actions:not(.fixed) li input[type=reset],
-ul.actions:not(.fixed) li input[type=button],
-ul.actions:not(.fixed) li button,
-ul.actions:not(.fixed) li .button {
+  ul.actions:not(.fixed) li input[type=reset],
+  ul.actions:not(.fixed) li input[type=button],
+  ul.actions:not(.fixed) li button,
+  ul.actions:not(.fixed) li .button {
     width: 100%;
   }
   ul.actions:not(.fixed) li input[type=submit].icon:before,
-ul.actions:not(.fixed) li input[type=reset].icon:before,
-ul.actions:not(.fixed) li input[type=button].icon:before,
-ul.actions:not(.fixed) li button.icon:before,
-ul.actions:not(.fixed) li .button.icon:before {
+  ul.actions:not(.fixed) li input[type=reset].icon:before,
+  ul.actions:not(.fixed) li input[type=button].icon:before,
+  ul.actions:not(.fixed) li button.icon:before,
+  ul.actions:not(.fixed) li .button.icon:before {
     margin-left: -0.5em;
   }
 }
@@ -1139,6 +1141,9 @@ body.is-preload #bg:before {
   border: solid 1px #ffffff;
   border-radius: 100%;
 }
+#header .logo .icon:before {
+  font-size: 2rem;
+}
 #header .logo a {
   display: flex;
   justify-content: center;
@@ -1146,11 +1151,8 @@ body.is-preload #bg:before {
   height: 100%;
 }
 #header .logo img {
-    height: 72px;
-    width: auto;
-  }
-#header .logo .icon:before {
-  font-size: 2rem;
+  height: 72px;
+  width: auto;
 }
 #header .content {
   border-style: solid;
@@ -1273,19 +1275,12 @@ body.is-preload #header .content .inner {
     height: 4.75rem;
     line-height: 4.75rem;
   }
-  #header .logo a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  #header .logo .icon:before {
+    font-size: 1.75rem;
   }
   #header .logo img {
     height: 32px;
     width: auto;
-  }
-
-  #header .logo .icon:before {
-    font-size: 1.75rem;
   }
   #header .content .inner {
     padding: 2.5rem 1rem;

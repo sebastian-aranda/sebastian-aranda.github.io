@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://www.sebastianaranda.com/es/</loc>
-    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.sebastianaranda.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.sebastianaranda.com/es/"
-                />
-  </url>
-  
   <url>
     <loc>https://www.sebastianaranda.com/es/services/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
@@ -30,9 +14,7 @@
                 hreflang="es"
                 href="https://www.sebastianaranda.com/es/services/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.sebastianaranda.com/es/about/</loc>
     <lastmod>2020-11-06T16:05:25-03:00</lastmod>
     <xhtml:link
@@ -45,9 +27,7 @@
                 hreflang="es"
                 href="https://www.sebastianaranda.com/es/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.sebastianaranda.com/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -59,9 +39,19 @@
                 hreflang="es"
                 href="https://www.sebastianaranda.com/es/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.sebastianaranda.com/es/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.sebastianaranda.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.sebastianaranda.com/es/"
+                />
+  </url><url>
     <loc>https://www.sebastianaranda.com/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -74,5 +64,4 @@
                 href="https://www.sebastianaranda.com/es/tags/"
                 />
   </url>
-  
 </urlset>

@@ -7,20 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sebastian Aranda Sanchez</copyright>
-    <lastBuildDate>Tue, 01 Nov 2022 16:11:37 -0300</lastBuildDate>
-    
-	<atom:link href="https://www.sebastianaranda.com/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:02 +0000</lastBuildDate><atom:link href="https://www.sebastianaranda.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LOVE</title>
-      <link>https://www.sebastianaranda.com/projects/inria/</link>
+      <link>https://www.sebastianaranda.com/projects/love/</link>
       <pubDate>Tue, 01 Nov 2022 16:11:37 -0300</pubDate>
       
-      <guid>https://www.sebastianaranda.com/projects/inria/</guid>
-      <description>When From Oct 2020 to Today
-Where At INRIA for collaboration with the Vera C. Rubin Observatory.
-What I&amp;rsquo;ve worked as programmer and currently project leader of LOVE, the LSST Operators Visualization Environment, a system to monitor several components of the Vera C. Rubin Observatory. This Observatory has over 65 subsystems that monitors different aspects of the telescope and its environment. LOVE is connected to the mayority of these systems.</description>
+      <guid>https://www.sebastianaranda.com/projects/love/</guid>
+      <description>Inria Chile 10 years Vera C. Rubin Observatory first look, La Serena base cacility celebration When From Oct 2020 to Today.
+Where I started as developer at INRIA Chile, the contractor for the initial development of the project. I was also able to take a tech lead and project management position in the project to lead the successful completion of the contract with the Vera C. Rubin Observatory. Then I was hired as Frontend Web Developer by the Rubin Observatory to keep maintaning the project.</description>
     </item>
     
     <item>

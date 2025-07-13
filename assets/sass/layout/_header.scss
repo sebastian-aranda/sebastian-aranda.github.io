@@ -59,6 +59,18 @@
 					font-size: 2rem;
 				}
 			}
+
+			a {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+			}
+
+			img {
+				height: 72px;
+    			width: auto;
+			}
 		}
 
 		.content {
@@ -205,6 +217,11 @@
 					&:before {
 						font-size: 1.75rem;
 					}
+				}
+
+				img {
+					height: 32px;
+					width: auto;
 				}
 			}
 
