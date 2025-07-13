@@ -1,6 +1,7 @@
 ---
 title: About me
 date: 2025-07-12T00:00:01Z
+updated: 2025-07-13T02:58:06Z
 draft: false
 imageRounded: /images/sebastian-aranda-sanchez.jpg
 ---
