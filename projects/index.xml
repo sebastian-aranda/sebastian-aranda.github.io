@@ -7,51 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sebastian Aranda Sanchez</copyright>
-    <lastBuildDate>Sat, 12 Jul 2025 00:00:02 +0000</lastBuildDate><atom:link href="https://www.sebastianaranda.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Nov 2022 16:11:37 -0300</lastBuildDate>
+    <atom:link href="https://www.sebastianaranda.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LOVE</title>
       <link>https://www.sebastianaranda.com/projects/love/</link>
       <pubDate>Tue, 01 Nov 2022 16:11:37 -0300</pubDate>
-      
       <guid>https://www.sebastianaranda.com/projects/love/</guid>
-      <description>Inria Chile 10 years Vera C. Rubin Observatory first look, La Serena base facility celebration When From Oct 2020 to Today.
-Where I started as developer at INRIA Chile, the contractor for the initial development of the project. I was also able to take a tech lead and project management position in the project to lead the successful completion of the contract with the Vera C. Rubin Observatory. Then I was hired as Frontend Web Developer by the Rubin Observatory to keep maintaning the project.</description>
+      <description>Inria Chile 10 years Vera C. Rubin Observatory first look, La Serena base facility celebration When From Oct 2020 to Today.&#xA;Where I started as developer at INRIA Chile, the contractor for the initial development of the project. I was also able to take a tech lead and project management position in the project to lead the successful completion of the contract with the Vera C. Rubin Observatory. Then I was hired as Frontend Web Developer by the Rubin Observatory to keep maintaning the project.</description>
     </item>
-    
     <item>
       <title>Learning Management Systems</title>
       <link>https://www.sebastianaranda.com/projects/enovus/</link>
       <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
-      
       <guid>https://www.sebastianaranda.com/projects/enovus/</guid>
-      <description>When From Aug 2014 to Feb 2020
-Where At ENOVUS
-What I&amp;rsquo;ve worked implementing a lot of LMS systems (Learning Management Systems) used for e-learning education. I&amp;rsquo;ve developed several components of different kind, in Frontend and Backend. Also worked with a lot of clients, using and agile approach with regular meetings to indentify, discuss and validate requirements.
-How Frontend: HMTL, CSS, CSS3, SASS, Javascript
-Backend: AMP stack (Apache, Mysql -Maria DB- and PHP)</description>
+      <description>When From Aug 2014 to Feb 2020&#xA;Where At ENOVUS&#xA;What I&amp;rsquo;ve worked implementing a lot of LMS systems (Learning Management Systems) used for e-learning education. I&amp;rsquo;ve developed several components of different kind, in Frontend and Backend. Also worked with a lot of clients, using and agile approach with regular meetings to indentify, discuss and validate requirements.&#xA;How Frontend: HMTL, CSS, CSS3, SASS, Javascript&#xA;Backend: AMP stack (Apache, Mysql -Maria DB- and PHP)</description>
     </item>
-    
     <item>
       <title>Native Applications</title>
       <link>https://www.sebastianaranda.com/projects/osare/</link>
       <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
-      
       <guid>https://www.sebastianaranda.com/projects/osare/</guid>
-      <description>When From 2014 to Feb 2017
-Where At OSARE
-What I&amp;rsquo;ve participated on the creation an entrepreneurship company called OSARE, we focused on developing innovative apps. This was one of my first job approachs, so it was the beginning of my development carrer. We were able to develop two applicaitons:
- HelpyCar: an application used to geolocate car workshops in case you required any urgent service. This was developed in native Android and we never did a release, but it served as a first approach to the software development.</description>
+      <description>When From 2014 to Feb 2017&#xA;Where At OSARE&#xA;What I&amp;rsquo;ve participated on the creation an entrepreneurship company called OSARE, we focused on developing innovative apps. This was one of my first job approachs, so it was the beginning of my development carrer. We were able to develop two applicaitons:&#xA;HelpyCar: an application used to geolocate car workshops in case you required any urgent service. This was developed in native Android and we never did a release, but it served as a first approach to the software development.</description>
     </item>
-    
     <item>
       <title>Spectral Line Classification</title>
       <link>https://www.sebastianaranda.com/projects/spectral-line-classification-llda/</link>
       <pubDate>Fri, 06 Nov 2020 16:22:37 -0300</pubDate>
-      
       <guid>https://www.sebastianaranda.com/projects/spectral-line-classification-llda/</guid>
-      <description>Labeled Latent Dirichlet Allocation model implementation for spectral line classification on ALMA Astronomy Datacubes
-The discipline of astroinformatics has grown a lot over the past few years thanks to the creation of bigger and more sophisticated telescopes, such as the Atacama Large Millimeter/submillimeter Array. With better spectral resolution in data, a new challenge is set in the way astronomical data is analyzed. In particular, data cubes produced by radioastronomy projects have generated an explosion in the volume of data retrieved.</description>
+      <description>Labeled Latent Dirichlet Allocation model implementation for spectral line classification on ALMA Astronomy Datacubes&#xA;The discipline of astroinformatics has grown a lot over the past few years thanks to the creation of bigger and more sophisticated telescopes, such as the Atacama Large Millimeter/submillimeter Array. With better spectral resolution in data, a new challenge is set in the way astronomical data is analyzed. In particular, data cubes produced by radioastronomy projects have generated an explosion in the volume of data retrieved.</description>
     </item>
-    
   </channel>
 </rss>

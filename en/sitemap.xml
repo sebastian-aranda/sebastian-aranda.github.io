@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.sebastianaranda.com/</loc>
+    <lastmod>2025-07-12T00:00:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.sebastianaranda.com/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.sebastianaranda.com/"
+                />
+  </url><url>
     <loc>https://www.sebastianaranda.com/services/</loc>
     <lastmod>2025-07-12T00:00:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
                 href="https://www.sebastianaranda.com/es/services/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://www.sebastianaranda.com/services/"
                 />
   </url><url>
     <loc>https://www.sebastianaranda.com/projects/</loc>
     <lastmod>2025-07-12T00:00:02+00:00</lastmod>
   </url><url>
-    <loc>https://www.sebastianaranda.com/</loc>
-    <lastmod>2025-07-12T00:00:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.sebastianaranda.com/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.sebastianaranda.com/"
-                />
-  </url><url>
     <loc>https://www.sebastianaranda.com/about/</loc>
     <lastmod>2025-07-12T00:00:01+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
                 href="https://www.sebastianaranda.com/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://www.sebastianaranda.com/about/"
                 />
   </url><url>
@@ -59,24 +59,24 @@
     <loc>https://www.sebastianaranda.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
                 href="https://www.sebastianaranda.com/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://www.sebastianaranda.com/categories/"
                 />
   </url><url>
     <loc>https://www.sebastianaranda.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
                 href="https://www.sebastianaranda.com/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://www.sebastianaranda.com/tags/"
                 />
   </url>

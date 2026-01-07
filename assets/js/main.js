@@ -420,3 +420,40 @@
 					});
 
 })(jQuery);
+
+// Background Slideshow
+(function() {
+	var bg = document.getElementById('bg');
+	var slides = document.querySelectorAll('.bg-slide');
+	if (slides.length <= 1) return;
+
+	var current = 0;
+	var interval = (parseInt(bg.getAttribute('data-interval'), 10) || 18) * 1000;
+	var transition = (parseInt(bg.getAttribute('data-transition'), 10) || 2);
+	var creditEl = document.getElementById('bg-credit');
+
+	// Apply transition duration from config
+	for (var i = 0; i < slides.length; i++) {
+		slides[i].style.transitionDuration = transition + 's';
+	}
+
+	function updateCredit(slide) {
+		if (!creditEl) return;
+		var credit = slide.getAttribute('data-credit') || '';
+		var url = slide.getAttribute('data-url') || '';
+		if (credit) {
+			if (url) {
+				creditEl.innerHTML = '&copy; Background image: <a target="_blank" href="' + url + '">' + credit + '</a>';
+			} else {
+				creditEl.innerHTML = '&copy; Background image: ' + credit;
+			}
+		}
+	}
+
+	setInterval(function() {
+		slides[current].classList.remove('active');
+		current = (current + 1) % slides.length;
+		slides[current].classList.add('active');
+		updateCredit(slides[current]);
+	}, interval);
+})();

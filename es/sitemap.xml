@@ -2,16 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.sebastianaranda.com/es/</loc>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.sebastianaranda.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.sebastianaranda.com/es/"
+                />
+  </url><url>
     <loc>https://www.sebastianaranda.com/es/services/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://www.sebastianaranda.com/services/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
                 href="https://www.sebastianaranda.com/es/services/"
                 />
   </url><url>
@@ -19,48 +32,36 @@
     <lastmod>2020-11-06T16:05:25-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://www.sebastianaranda.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
                 href="https://www.sebastianaranda.com/es/about/"
                 />
   </url><url>
     <loc>https://www.sebastianaranda.com/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://www.sebastianaranda.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
                 href="https://www.sebastianaranda.com/es/categories/"
-                />
-  </url><url>
-    <loc>https://www.sebastianaranda.com/es/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.sebastianaranda.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.sebastianaranda.com/es/"
                 />
   </url><url>
     <loc>https://www.sebastianaranda.com/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://www.sebastianaranda.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
                 href="https://www.sebastianaranda.com/es/tags/"
                 />
   </url>

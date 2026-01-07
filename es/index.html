@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.91.2" />
+	<meta name="generator" content="Hugo 0.123.7">
     <title>Sebastian Aranda Sánchez website</title>
     
     <meta property="og:title" content="Sebastian Aranda Sanchez website" />
@@ -24,9 +24,6 @@
     <link rel="stylesheet" href="https://www.sebastianaranda.com/assets/css/main.css"/>
     <link rel="stylesheet" href="https://www.sebastianaranda.com/assets/css/custom.css"/>
     <noscript><link rel="stylesheet" href="https://www.sebastianaranda.com/assets/css/noscript.css"/></noscript>
-    <style>
-        :root{--site-background : url("https://www.sebastianaranda.com/images/bg.jpg")};
-    </style> 
     
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
@@ -240,12 +237,23 @@
     </div>
     <a aria-label="Follow @sebastian-aranda on GitHub" data-count-aria-label="# followers on GitHub" data-count-api="/users/sebastian-aranda#followers" data-count-href="/sebastian-aranda/followers" data-style="mega" href="https://github.com/sebastian-aranda" class="github-button">Follow @sebastian-aranda</a>
     <p class="copyright">&copy; Theme by: <a target="_blank" href="https://github.com/your-identity/hugo-theme-dimension">d-asnaghi</a>.</p>
-    <p class="copyright">&copy; Background image: <a target="_blank" href="https://www.nasa.gov/image-feature/carina-nebulas-mystic-mountain">Carina Nebula's 'Mystic Mountain'</a></p>
+    <p class="copyright" id="bg-credit">&copy; Background image: <a target="_blank" href="https://www.nasa.gov/image-feature/carina-nebulas-mystic-mountain">Carina Nebula&#39;s &#39;Mystic Mountain&#39; - NASA</a></p>
 </footer>
         </div>
 
     
-    <div id="bg"></div>
+    <div id="bg" data-interval="18" data-transition="2">
+        <div class="bg-overlay"></div>
+        
+        <div class="bg-slide active" style="background-image: url('https://www.sebastianaranda.com/images/bg.jpg')" data-credit="Carina Nebula&#39;s &#39;Mystic Mountain&#39; - NASA" data-url="https://www.nasa.gov/image-feature/carina-nebulas-mystic-mountain"></div>
+        
+        <div class="bg-slide" style="background-image: url('https://www.sebastianaranda.com/images/bg2.jpg')" data-credit="Carina Nebula - James Webb Telescope" data-url="https://esawebb.org/images/weic2205a/"></div>
+        
+        <div class="bg-slide" style="background-image: url('https://www.sebastianaranda.com/images/bg3.jpg')" data-credit="Cosmic Treasure Chest - Vera C. Rubin Observatory" data-url="https://rubinobservatory.org/gallery/collections/first-look-gallery/mlis3sriah6pn6nfr5ecp46h3i"></div>
+        
+        <div class="bg-slide" style="background-image: url('https://www.sebastianaranda.com/images/bg4.jpg')" data-credit="Trifid and Lagoon - Vera C. Rubin Observatory" data-url="https://rubinobservatory.org/gallery/collections/first-look-gallery/n4kvj0cemd5pbdqgtjdgp2jg2t"></div>
+        
+    </div>
 </body>
 
 
