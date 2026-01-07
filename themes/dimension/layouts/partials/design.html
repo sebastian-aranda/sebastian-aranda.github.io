@@ -7,5 +7,5 @@
     </div>
     <a aria-label="Follow @sebastian-aranda on GitHub" data-count-aria-label="# followers on GitHub" data-count-api="/users/sebastian-aranda#followers" data-count-href="/sebastian-aranda/followers" data-style="mega" href="https://github.com/sebastian-aranda" class="github-button">Follow @sebastian-aranda</a>
     <p class="copyright">&copy; Theme by: <a target="_blank" href="https://github.com/your-identity/hugo-theme-dimension">d-asnaghi</a>.</p>
-    <p class="copyright">&copy; Background image: <a target="_blank" href="https://www.nasa.gov/image-feature/carina-nebulas-mystic-mountain">Carina Nebula's 'Mystic Mountain'</a></p>
+    <p class="copyright" id="bg-credit">&copy; Background image: {{ with (index .Site.Params.slideshow.slides 0) }}<a target="_blank" href="{{ .url }}">{{ .credit }}</a>{{ end }}</p>
 </footer>

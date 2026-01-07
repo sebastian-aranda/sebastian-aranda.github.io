@@ -66,7 +66,12 @@
         </div>
 
     <!-- BG -->
-    <div id="bg"></div>
+    <div id="bg" data-interval="{{ .Site.Params.slideshow.interval | default 18 }}" data-transition="{{ .Site.Params.slideshow.transition | default 2 }}">
+        <div class="bg-overlay"></div>
+        {{ range $index, $slide := .Site.Params.slideshow.slides }}
+        <div class="bg-slide{{ if eq $index 0 }} active{{ end }}" style="background-image: url('{{ $slide.image | absURL }}')" data-credit="{{ $slide.credit }}" data-url="{{ $slide.url }}"></div>
+        {{ end }}
+    </div>
 </body>
 
 {{ partial "footer.html" .}}

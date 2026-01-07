@@ -15,3 +15,27 @@ title = "Sebastian Aranda Sánchez website"
 
 [params]
 	icon = "atom fas solid"
+
+[params.slideshow]
+	interval = 18
+	transition = 2
+
+[[params.slideshow.slides]]
+	image = "/images/bg.jpg"
+	credit = "Carina Nebula's 'Mystic Mountain' - NASA"
+	url = "https://www.nasa.gov/image-feature/carina-nebulas-mystic-mountain"
+
+[[params.slideshow.slides]]
+	image = "/images/bg2.jpg"
+	credit = "Carina Nebula - James Webb Telescope"
+	url = "https://esawebb.org/images/weic2205a/"
+
+[[params.slideshow.slides]]
+	image = "/images/bg3.jpg"
+	credit = "Cosmic Treasure Chest - Vera C. Rubin Observatory"
+	url = "https://rubinobservatory.org/gallery/collections/first-look-gallery/mlis3sriah6pn6nfr5ecp46h3i"
+
+[[params.slideshow.slides]]
+	image = "/images/bg4.jpg"
+	credit = "Trifid and Lagoon - Vera C. Rubin Observatory"
+	url = "https://rubinobservatory.org/gallery/collections/first-look-gallery/n4kvj0cemd5pbdqgtjdgp2jg2t"
